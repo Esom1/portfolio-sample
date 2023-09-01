@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500;600&family=Hammersmith+One&family=Inter:wght@100;400&family=Lato:wght@100&family=Manrope:wght@300&family=Open+Sans:wght@500&family=PT+Sans:ital@1&family=Playfair+Display&family=Poppins&family=Red+Hat+Display:wght@300&family=Roboto:wght@100;300;400;700&family=Rubik:wght@300;400&family=Signika+Negative&family=Silkscreen&display=swap');
+
+
+.yellow{
+  font-family: 'Hammersmith One';
+  color: #F16529;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFF;
+  width: 15%;
+  margin-bottom: 0;
+}
+.name{
+  font-family: 'Hammersmith One';
+  font-size: 55px;
+  padding: 0;
+  margin: 0;
+}
+.detail{
+  font-family: 'Lato';
+  font-size: 14px;
+  width: 41%;
+  line-height: 1.5rem;
+
+}
+.hero-icons img{
+  width: 30px;
+  height: 1.8rem;
+}
+.my-pic img{
+  width: 40px;
+  height: 2.5rem;
+  border-radius: 2rem;
+  margin-bottom:1rem ;
+}
+.ss img{
+  width: 12px;
+  height: 1rem;
+  margin-top: 0.3rem;
+}
+.hero{
+  height: 83vh;
+}
+.hero{
+  position: relative;
+}
+.dev{
+  position: absolute;
+  left: 35rem;
+  bottom: 0.1rem;
+}
+.persona{
+  margin-top: 7rem;
+}
+.dev img{
+  max-width: 73%;
+}
+.circle{
+  background: #151219;
+    border-radius: 50%;
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    left: 40rem;
+  bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .circle{
+    display: none;
+  }
+  .dev{
+    display: none;
+  }
+  .yellow{
+    width: 55%;
+    margin-left: 5rem;
+  }
+  .name{
+    font-size: 35px;
+    text-align: center;
+  }
+  .detail{
+    width: 95%;
+    text-align: center;
+  }
+  .persona{
+    margin-top: 3rem;
+  }
+
+}
