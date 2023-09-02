@@ -5,19 +5,73 @@
   font-weight: 600;
   margin-bottom: 3rem;
 }
-.persona-detail{
-  margin-top: 0;
+.hero{
+  background-color: black;
 }
+
 .yellow-project{
   width: 16%;
 }
 .name-project{
   font-size: 45px;
 }
+.perfumery{
+    border: 1px solid  #404040;
+  background-color:  #404040;
+}
+
+
+
+
 @media (max-width: 768px){
   .yellow-project{
     width: 55%;
     margin-left: 5rem;
-
   }
+  .hero{
+    height: 375vh;
+    font-family: 'Lato';
+  }
+  .perfumery{
+    border: 1px solid  #404040;
+  background-color:  #404040;
+  width: 88%;
+  font-size:12px ;
+  font-weight: 800;
+  }
+  .ss img{
+    width: 10px;
+    height: 0.6rem;
+  }
+  .orange{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    color: #F16529;
+  }
+  .bold{
+    font-size: 13px;
+    font-family: 'Hammersmith One';
+    font-weight: 400;
+  }
+  .git-hub{
+    font-size: 10px;
+    font-weight:300 ;
+    font-family: 'Hammersmith One';
+    margin-top: 0.2rem;
+  }
+  
+  .web{
+    font-size: 10px;
+    font-weight:300 ;
+    font-family: 'Hammersmith One';
+    margin-top: 0.2rem;
+  }
+  .holder{
+    display: grid;
+  grid-template-columns: repeat(2,1fr)
+  }
+
+ 
+   
 }
