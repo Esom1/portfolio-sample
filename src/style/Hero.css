@@ -92,5 +92,8 @@
   .persona{
     margin-top: 3rem;
   }
+  .hero-icons img{
+   margin-right: 0.4rem;
+  }
 
 }
