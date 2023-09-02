@@ -14,3 +14,10 @@
 .name-project{
   font-size: 45px;
 }
+@media (max-width: 768px){
+  .yellow-project{
+    width: 55%;
+    margin-left: 5rem;
+
+  }
+}
