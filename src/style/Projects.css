@@ -24,19 +24,14 @@
   border: 1px solid #404040;
   background-color: #404040;
 }
-.hero {
-  height: 180vh;
-}
 
 .hero {
-  height: 140vh;
+  height: 145vh;
   font-family: "Lato";
 }
 .holder{
   margin-right: 5rem;
   gap: 5.5rem;
-  
-  
 }
 .perfumery {
   border: 1px solid #404040;
@@ -45,7 +40,6 @@
   font-size: 18px;
   font-weight: 800;
   height: 8rem
-  
 }
 .ss img {
   width: 10px;

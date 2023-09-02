@@ -37,7 +37,7 @@ const Projects = () => {
        </div>
       </div>
      </div>
-      <div className='holder '>
+      <div className='holder'>
        <div className='perfumery'>
        <p className='orange'>Javacript,Bootstrap,React & Node</p>
         <p className='bold'>Perfumery : E-commerce website</p>
