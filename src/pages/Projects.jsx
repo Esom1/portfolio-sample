@@ -13,16 +13,17 @@ const Projects = () => {
     <div className='hero text-white pt-5 '>
        <div className='container'>
       <div className='row' >
-     <div>
+     <div className='d-lg-flex gap-4'>
+     <div className=''>
      <p className=' yellow yellow-project text-center'>Full Stack Developer</p>
       <p className='name name-project'>Christiana Ugoala</p>
       <p className='detail'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pha tortor consequat nibh gravida id sit. Quis eget diam ut proin. At nisl diam urna sit. Tortor nibh ornare vestibulum amet dis eros dolor eget. Orci in enim sit luctus lacus arcu.</p>
-      <div className='new-nav d-md-none d-sm-none'>
+      <div className='new-nav d-md-none d-sm-none d-lg-block mt-3'>
         <p>01 -- Project</p>
         <p>02 -- Download Resume</p>
         <p>03 -- Contact</p>
       </div>
-      <div className='d-flex align-items-center gap-5 persona d-sm-none d-lg-block persona-detail'>
+      <div className='d-flex align-items-center gap-5 persona'>
        <div className='my-pic'> <img src={me} alt="" /></div>
        <div className='d-flex ss gap-2'>
        <img src={message} alt="" />
@@ -36,7 +37,7 @@ const Projects = () => {
        </div>
       </div>
      </div>
-      <div className='holder'>
+      <div className='holder '>
        <div className='perfumery'>
        <p className='orange'>Javacript,Bootstrap,React & Node</p>
         <p className='bold'>Perfumery : E-commerce website</p>
@@ -53,7 +54,7 @@ const Projects = () => {
        </div>
         </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery'>
        <p className='orange'>Javacript,Bootstrap,React & Node</p>
         <p className='bold'>JazzyBurger : E-commerce website</p>
         <div className='d-flex gap-2'>
@@ -69,7 +70,7 @@ const Projects = () => {
        </div>
         </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery'>
        <p className='orange'>Javacript,Bootstrap,React & Node</p>
         <p className='bold'>TaskMan : Schedule website</p>
        <div className='d-flex gap-2'>
@@ -85,7 +86,7 @@ const Projects = () => {
        </div>
        </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery '>
        <p className='orange'>Html,Css & Bootstrap</p>
         <p className='bold'>Tech Studio : E-commerce website</p>
        <div className='d-flex gap-2'>
@@ -101,7 +102,7 @@ const Projects = () => {
        </div>
        </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery'>
        <p className='orange'>Html,Css & Bootstrap</p>
         <p className='bold'>Huddle : Landing page</p>
        <div className='d-flex gap-2'>
@@ -117,7 +118,7 @@ const Projects = () => {
        </div>
        </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery'>
        <p className='orange'>Html,Css & Bootstrap</p>
         <p className='bold'>TradExpress : Landing page</p>
        <div className='d-flex gap-2'>
@@ -133,7 +134,7 @@ const Projects = () => {
        </div>
        </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery'>
        <p className='orange'>Html,Css & Bootstrap</p>
         <p className='bold'>Music Purchase : Landing page</p>
         <div className='d-flex gap-2'>
@@ -149,7 +150,7 @@ const Projects = () => {
        </div>
         </div>
        </div>
-       <div className='perfumery mt-2'>
+       <div className='perfumery'>
        <p className='orange'>Html,Css & Bootstrap</p>
         <p className='bold'>Eggy's Hotel : Landing page</p>
        <div className='d-flex gap-2'>
@@ -166,6 +167,7 @@ const Projects = () => {
        </div>
        </div>
        </div>
+     </div>
     </div>
     </div>
     </div>
