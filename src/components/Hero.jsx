@@ -14,7 +14,7 @@ import git from '../assets/Vector-git.png'
 
 const Hero = () => {
   return (
-    <div className='hero bg-dark text-white pt-5 '>
+    <div className='hero text-white pt-5 '>
       <div className='container'>
       <p className=' yellow text-center'>Full Stack Developer</p>
       <p className='name'>Christiana Ugoala</p>
