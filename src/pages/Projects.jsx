@@ -17,13 +17,13 @@ const Projects = () => {
      <div className=''>
      <p className=' yellow yellow-project text-center'>Full Stack Developer</p>
       <p className='name name-project'>Christiana Ugoala</p>
-      <p className='detail'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pha tortor consequat nibh gravida id sit. Quis eget diam ut proin. At nisl diam urna sit. Tortor nibh ornare vestibulum amet dis eros dolor eget. Orci in enim sit luctus lacus arcu.</p>
+      <p className='detail detail-d'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pha tortor consequat nibh gravida id sit. Quis eget diam ut proin. At nisl diam urna sit. Tortor nibh ornare vestibulum amet dis eros dolor eget. Orci in enim sit luctus lacus arcu.</p>
       <div className='new-nav d-md-none d-sm-none d-lg-block mt-3'>
         <p>01 -- Project</p>
         <p>02 -- Download Resume</p>
         <p>03 -- Contact</p>
       </div>
-      <div className='d-flex align-items-center gap-3 persona person-d'>
+      <div className='d-flex align-items-center gap-3 persona persona-d'>
        <div className='my-pic'> <img src={me} alt="" /></div>
        <div className='d-flex ss gap-2'>
        <img src={message} alt="" />
