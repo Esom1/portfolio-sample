@@ -13,7 +13,7 @@ const Projects = () => {
     <div className='hero text-white pt-5 '>
        <div className='container'>
       <div className='row' >
-     <div className='d-lg-flex gap-4'>
+     <div className='d-lg-flex gap-3'>
      <div className=''>
      <p className=' yellow yellow-project text-center'>Full Stack Developer</p>
       <p className='name name-project'>Christiana Ugoala</p>
@@ -23,7 +23,7 @@ const Projects = () => {
         <p>02 -- Download Resume</p>
         <p>03 -- Contact</p>
       </div>
-      <div className='d-flex align-items-center gap-5 persona'>
+      <div className='d-flex align-items-center gap-3 persona person-d'>
        <div className='my-pic'> <img src={me} alt="" /></div>
        <div className='d-flex ss gap-2'>
        <img src={message} alt="" />

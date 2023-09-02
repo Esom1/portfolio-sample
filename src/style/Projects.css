@@ -93,9 +93,10 @@
   .perfumery {
     border: 1px solid #404040;
     background-color: #404040;
-    width: 88%;
+    max-width: 102%;
     font-size: 12px;
     font-weight: 800;
+  
   }
   .ss img {
     width: 10px;
@@ -128,5 +129,13 @@
   .holder {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 0;
   }
+  .name-project{
+   font-size: 40px;
+  }
+  .detail{
+    max-width: 100%;
+  }
+  
 }
