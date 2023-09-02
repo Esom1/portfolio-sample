@@ -44,7 +44,7 @@
   margin-top: 0.3rem;
 }
 .hero{
-  height: 70vh;
+  height: 87vh;
 }
 .hero{
   position: relative;
@@ -94,6 +94,13 @@
   }
   .hero-icons img{
    margin-right: 0.4rem;
+  }
+  .persona{
+    margin-bottom: 0rem;
+  }
+  .hero{
+    height: 70vh;
+   
   }
 
 }
