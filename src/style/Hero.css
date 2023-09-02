@@ -24,7 +24,7 @@
 .detail{
   font-family: 'Lato';
   font-size: 14px;
-  width: 35%;
+  width: 3%;
   line-height: 1.5rem;
 
 }
@@ -52,8 +52,8 @@
 }
 .dev{
   position: absolute;
-  left: 33rem;
-  bottom: 45rem;
+  left: 35rem;
+  bottom: 0.1rem;
 }
 .persona{
   margin-top: 7rem;
@@ -68,7 +68,7 @@
     height: 370px;
     position: absolute;
     left: 40rem;
-  bottom: 50rem;
+  bottom: 3rem;
 }
 
 @media (max-width: 768px) {
