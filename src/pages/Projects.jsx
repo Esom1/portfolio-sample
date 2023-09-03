@@ -10,7 +10,7 @@ import webicon from '../assets/web-icon.svg'
 
 const Projects = () => {
   return (
-    <div className='hero text-white pt-5 '>
+    <div className='hero text-white pt-5 hero-vh '>
        <div className='container'>
       <div className='row' >
      <div className='d-lg-flex gap-3'>
