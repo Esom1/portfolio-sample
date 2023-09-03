@@ -56,22 +56,22 @@
 .dev{
   position: absolute;
   left: 35rem;
-  bottom: 18rem;
+  bottom: 0rem;
 }
 .persona{
   margin-top: 7rem;
 }
 .dev img{
-  max-width: 76%;
+  max-width: 78%;
 }
 .circle{
   background: #151219;
     border-radius: 50%;
-    width: 368px;
-    height: 368px;
+    width: 370px;
+    height: 370px;
     position: absolute;
     left: 40rem;
-  bottom: 21rem;
+  bottom: 2rem;
 }
 
 @media (max-width: 768px) {
